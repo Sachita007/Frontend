@@ -1,0 +1,51 @@
+.backGround {
+    display: none;
+    --tw-translate-x: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@media (min-width: 768px) { 
+    .backGround{
+    display: block;
+}
+}
+.backImg{
+    max-width: none;
+}
+
+.body {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42/var(--tw-bg-opacity));
+}
+
+footer {
+    --tw-bg-opacity: 1;
+        background-color: rgb(15 23 42/var(--tw-bg-opacity));
+}
+.thirdSec {
+
+
+    
+    --tw-gradient-from: #1e293b;
+    --tw-gradient-to: rgb(30 41 59 / 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+        opacity: 0.25;
+            height: 25rem;
+            position: absolute;
+            z-index: -10;
+            pointer-events: none;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+
+}
+
+
+.secBackImg{
+        --tw-translate-x: -50%;
+            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+            position: absolute;
+            left: 50%;
+            z-index: -10;
+}
+
